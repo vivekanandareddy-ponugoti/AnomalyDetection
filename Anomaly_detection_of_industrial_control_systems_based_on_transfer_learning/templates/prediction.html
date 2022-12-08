@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Prediction</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="static/css/fontAwesome.css">
+        <link rel="stylesheet" href="static/css/hero-slider.css">
+        <link rel="stylesheet" href="static/css/owl-carousel.css">
+        <link rel="stylesheet" href="static/css/datepicker.css">
+        <link rel="stylesheet" href="static/css/tooplate-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="./static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+    .button {
+		  background-color: #4CAF50; /* Green */
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+		.button2 {background-color: #008CBA;} /* Blue */
+  </style>
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="static/images/favicon.png">
+</head>
+
+<body>
+ 
+  <div>
+      <header id="header">
+          <div class="container-fluid">
+              <div class="col-md-12">
+                  <button id="primary-nav-button" type="button">Menu</button>
+                  
+                  <nav id="primary-nav" class="dropdown cf">
+                      <ul class="dropdown menu">
+                          <li class='active'><a href="/home">Home</a></li>
+                          <li class='active'><a href="/analysis">Analysis</a></li>
+                          <li class='active'><a href="#">About</a></li>
+                          
+                          <li><a href="/login">Signout</a></li>
+                      </ul>
+                  </nav><!-- / #primary-nav -->
+              </div>
+          </div>
+      </header>
+  </div>
+  <div>
+    <div class="container-fluid">
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <br><br>
+          <h1 class="header center orange-text">Anomaly detection ICS based on transfer learning </h4></h1>
+        </div>
+            <div style="margin-top:70px;color:white;font-size: 60px;font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: center;padding-top:100px;">
+                
+                {% if output %}
+                    <h3 style="font-size: xx-large;color: black;"> Attack Class should be <b style="color:red;">{{ output }}</b>  </h3>
+                {% endif %}
+            </div>
+   <!-- Footer -->
+</div> <!-- end of row -->
+</div> <!-- end of container -->
+</div> <!-- end of cards-2 -->
+<!-- end of projects -->
+<!-- Footer -->
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="col-md-12">
+                <p>Copyright &copy; 2022
+                
+                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+   <!-- Footer -->
+    <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./static/js/materialize.js"></script>
+  <script src="./static/js/init.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="static/js/vendor/bootstrap.min.js"></script>
+    
+    <script src="static/js/datepicker.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/main.js"></script>
+
+</body>
+</html>
